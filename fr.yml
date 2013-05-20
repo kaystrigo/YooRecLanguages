@@ -1,0 +1,575 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+fr:
+   #----BOTONES ----#
+  bienvenido: "Bienvenido %{user}"
+  salir: "Salir"
+  entrar: "Entrar"
+  si: "Si"
+  no: "No"
+  volver: "Volver"
+  siguiente: "Siguiente"
+  finalizar: "Finalizar"
+  seleccionar: "Seleccionar"
+  registrarse: "Registrarse"
+  botones:
+    upload: "Upload"
+    actualizar: "Actualizar"
+    cancelar: "Cancelar"
+    aceptar: "Aceptar"
+    rechazar: "Rechazar"
+    asignar: "Asignar"
+    enviar: "Enviar"
+    guardar: "Guardar"
+    comprar: "Comprar"
+    finalizar: "Finalizar"
+    # ----------- MENUS -----#
+  menu:
+    nuevo_proyecto: "nuevo proyecto"
+    nuevo_editor: "nuevo editor"
+    que_es_yoorec: "Que es yoorec?"
+    directorio_editores: "directorio editores"
+    mis_datos: "mis datos"
+    mis_editores: "mis editores"
+    mis_presupuestos: "mis presupuestos"
+    mis_proyectos: "mis proyectos"
+    mis_ofertas: "mis ofertas"
+    # ----------- MENUS DE PIE ------#
+  menu_pie:
+    descubre_yoorec: "descubre yoorec"
+    español_eur: "español eur"
+    yoorec_english: "yoorec.com in english"
+    seguridad: "seguridad"
+    selecciones_yoorec: "selecciones de yoorec"
+    por_que_ser_editor: "por qué ser editor"
+    testimonios: "testimonios"
+    productos: "productos"
+    yoorec_wevideo: "yoorec wevideo"
+    precio: "precio"
+    como_funciona: "cómo funciona"
+    faq: "FAQ"
+    empresa: "empresa"
+    blog: "blog"
+    empleos: "empleos"
+    prensa: "prensa"
+    politicas_privacidad: "políticas de privacidad"
+    condiciones_generales: "condiciones generales"
+    siguenos_en: "síguenos en"
+  #-------- ETIQUETAS COMUNES ---#
+  shared:
+    introduce_email: "Introduce tu email, no hace falta que te registres:"
+    dejanos_comentario: "déjanos algún cometario sobre lo que quieres:"
+    sube_tus_archivo: "sube tus archivos"
+    mensajes:
+      conversacion: "Conversación con"
+      nuevo_mensaje: "Nuevo mensaje"
+      sin_mensajes: "No tiene mensajes para este proyecto"
+  home:
+      #---------PAGINA PRINCIPAL--------#
+    index:
+      mensaje_titulo_1: "Sube tus videos y fotos"
+      mensaje_1: "y nosotros te montamos un video"
+      mensaje_titulo_2: "Puedo ser editor"
+      mensaje_2: "Editores jóvenes y de confianza querrán hacer tu trabajo"
+      mensaje_titulo_3: "Nuestro Objetivo"
+      mensaje_3: "Buscamos solución a tus problemas de montaje"  
+      prefieres_presupuesto: "¿prefieres un presupuesto rápido?"  
+    #-------NUEVO PROYECTO----------#
+    nuevo_proyecto:
+      titulo: "DESCRIBE YOUR VIDEO"
+      nombre_proyecto: "Nombre del proyecto"
+      descripcion_proyecto: "And describe it too! With words you tell us what you need audiovisual project. We listen"
+      texto_nuevo_proyecto: "<p class='texto_buynow'>Descubre nuestro sistema automático de presupuestos:</p><p class='texto_buynow'><img src='/images/logo_buynow.png' style='vertical-align:bottom;' />También puedes preguntar a los editores</p><p class='texto_buynow'>Introduce el número de fotos, minutos de video, numero de canciones y los minutos del video que deseas obtener y nosotros calcularemos el presupuesto para ti. Si no lo quieres, recuerda que también puedes preguntar a nuestros editores.</p>"
+      num_fotos: "¿Cuantas fotos?"
+      fotos: "fotos"
+      presupuesto: "presupuesto yoorec: BUY NOW!"
+      minutos_video: "¿Cuantos minutos de video?"
+      min_video: "min. video"
+      iva_incl: "I.V.A. incluido"
+      numero_canciones: "¿Cuantas canciones?"
+      canciones: "canciones"
+      min_video_editado: "¿Cuantos minutos finales de video?"
+      minutos: "minutos"
+      comprar: "Comprar"
+      si_dudas: "si dudas pidele presupuesto a nuestros editores"
+      pedir_presupuesto: "Pedir presupuestos"
+      sube_archivos_antes: "Sube tus archivos antes de iniciar el proyecto"
+      sube_directamente: "<p class='texto_buynow'>O sube directamente tu material</p><p class='texto_buynow'>y obten en presupuesto de nuestros editores</p>"
+      video_3dias: "Poporcionamos el video en 3 días"
+      mensaje_1: "es simple,<br/> sube tus videos y fotos"
+      mensaje_2: "estudiantes y profesionales<br/>  jóvenes y de confianza"
+      mensaje_3: "nos apoyamos en WeTransfer para que envíes tus archivos ¡verás lo rápido que es!"
+    
+    #------IDENTIFICACION -----#
+  layouts:
+    login: "Identificarse"
+    bienvenido:  "Bienvenido a YooRec"
+  
+  #-------- RESTABLECER CONTRASEÑA ------#
+  password_resets:
+    cambia_pass: "Cambiar mi contraseña"
+    nueva_pass: "Escriba su nueva contraseña:"
+    pass: "Contraseña"
+    confirma_pass: "Confirme su contraseña"
+    recuperacion_pass: "Recuperacion de contraseña"
+    correo: "Escriba su correo y le enviaremos al email las instrucciones para recuperar su contraseña:"
+ 
+  #-------------- MAILS - CORREOS ------------------#
+  user_mailer:
+    cabecera: "Estimado %{nombre_user}"
+    despedida_text1: "Le saluda atentamente."
+    despedida_text2: "El equipo de YooRec."
+    el_editor: "el editor %{nombre_usuario}"
+    el_cliente: "el cliente %{nombre_usuario}"
+    password_reset_instructions:
+      recuperacion_contraseña: "Hemos recibido una petición de recuperación de contraseña</p><p>Si usted no ha realizado la petición, ignore este email."
+      enlace: "Si usted realizó la petición, haga click en el siguiente enlace:"
+      problema_enlace: "Si el enlace no funciona, cópielo y péguelo en su navegador. Si tiene problemas para acceder, póngase en contacto con nosotros en la dirección notifica@yoorec.com."
+      subject_password_reset: "Password Reset Instructions, Instrucciones de recuperacion de contraseña "
+    correo_registro:
+      text: "Gracias por registrarse en YooRec.com. Le animamos a seguir adelante en su primera compra de montaje y edición de video, u otro servicio que pueda ofrecerle nuestro equipo. "
+      subject: "Bienvenido a YooRec, un lugar donde tus videos se harán realidad"
+    correo_registro_editor:
+      text1: "Gracias por registrarse en YooRec.com como editor. Como has podido ver también hay espacio para fotógrafos, cámaras o simples ayudantes a la digitalización. "
+      text2: "Ya hemos comprobado su fotografía, su documento de identificación y la coincidencia con los datos introducidos. "
+      text3: "Le animamos terminar su registro lo máximo posible. Por ejemplo,  ¿a añadido ya el número de cuenta? De esa forma cuando le surja un trabajo, sólo tenga que preocuparse de su proyecto y de cobrar."
+      subject: "Bienvenido a YooRec, contaremos con tu ayuda online y cobrarás por ello"
+    correo_subir_archivos:
+      text1: "hemos recibido sus archivos. Tan sólo indicarle que éstos están seguros con nosotros.Usamos protocolo seguro de transferencia https. "
+      text2: "Le sugerimos que durante este período consigamos dar por finalizado el proyecto. "
+      text3: "Los archivos estarán en nuestro canal de transferencia durante 4 semanas, y no los haremos llegar a los editores externos hasta que no los seleccione uno a uno en su perfil de YooRec. Seleccionelos para cada proyecto en concreto (enlace a listado de editores)."
+      subject: "Sus archivos están seguros con YooRec"
+    correo_subir_videos:
+      text1: "le agradecemos que nos envíe sus videos emotivos de forma privada para que podamos valorar su perfil. Tan sólo indicarle que éstos están seguros con nosotros. Usamos protocolo seguro de transferencia https. "
+      text2: "Los archivos estarán en nuestro canal de transferencia durante 4 semanas y le animamos a que nos indique la posibilidad de hacer pública una parte de éstos vídeos. ¡Sólo necesitamos 30 segundos! "
+    correo_abrir_presupuesto:
+      text1: "Gracias por abrir un presupuesto para realizar su proyecto audiovisual con  YooRec.com."
+      text2: "Le animamos bien a subir sus archivos para evoluar el proyecto que desea, bien a seleccionar editores."
+      text3: "Siempre puede realizar la compra directamente (enlace a su presupuesto) y comenzaremos de forma inmediata a crear su proyecto, donde tendrá una plaforma de conversación y los plazos definidos. "
+      subject: "Compre directamente a YooRec o solicite presupuesto a otros editores"
+    correo_seleccionar_editores:
+      text1: " va a recibir notificación para que estudien su proyecto. "
+      text2: "Algunos de nuestros editores prefieren no ofertar si usted no ha subido los archivos, por la dificultad que ellos estiman que conlleva. Es por ello que le animamos a, bien subir los archivos, bien seleccionar más editores para su oferta. "
+      subject: "%{nombre_proveedor} ha sido seleccionado para estudiar su proyecto"
+    correo_recibe_oferta:
+      mostrar_interes: "ha mostrado interés en recibir una propuesta por su trabajo. Debemos hacerle saber que los datos introducidos son: "
+      nombre_proyecto: "Nombre del proyecto: %{nombre_proyecto}"
+      descripcion: "Descripcion: %{descripcion}"
+      numero_fotos: "Numero de fotos: %{num_fotos}"
+      minutos_videos: "Minutos de video: %{min_videos}"
+      numero_canciones: "Número de canciones: %{num_canciones}"
+      precio_propuesto: "Precio propuesto por YooRec 45 euros."
+      oferte: "Oferte pulsando <a href='zona_editor/oferta_proyecto'> aquí </a>"
+      subject: "YooRec le presenta a un posible cliente: %{nombre_cliente} muestra interés por usted"
+      sin_archivos:
+        text_archivos_no_subidos: "También debe saber que el cliente NO HA SUBIDO SUS ARCHIVOS AÚN Y PUEDE VARIAR SUSTANCIALMENTE. Permitiremos ampliar el presupuesto, aunque si no quiere recibir propuestas en estas condiciones (sin archivos o no perfectamente definidos) pulse <a href='zona_editor/mis_datos'> aquí </a>, por favor. A partir de ese momento sólo le llegaran propuestas con archivos (fotos, videos, etc). "
+    correo_respuesta_a_oferta: 
+      text: "le propone realizar su proyecto audiovisual por una cantidad de  %{cuantia}  euros y se compromete a realizarlo en el plazo de %{dias} días desde el momento del pago por su parte. Pulse <a href='zona_usuario/presupuesto'> aquí </a> para iniciar la orden de pedido. "
+      subject: "%{nombre_proveedor} pide %{cuantia} euros por realizar su %{nombre_proyecto} (plazo %{dias} dias)"
+    correo_oferta_modificada:
+      text1: "estas son las cosas de trabajar a través de internet. Tu posible cliente %{nombre_cliente} ha realizado alguna modificación en el proyecto."
+      text2: "Si ya has ofertado, te animamos a que lo vuelvas a hacer si el alcance varia sustancialmente o que mantengas tu oferta. Si aún no lo has hecho, tienes otra oportunidad para hacerlo. "
+      subject: "Ojo! %{nombre_cliente} ha modificado su proyecto %{nombre_proyecto}"
+    correo_seleccionado_pagado:
+      text1: " le ha seleccionado y ha pagado %{cuantia} euros por su trabajo. Usted nos indicó que lo haría en %{dias} días, y ese plazo empieza YA!!"
+      text2: "Dese prisa en comenzar su trabajo. Algunos clientes necesitan el video en una fecha determinada, y posterior a ésta no les sirve de mucho."
+      text3: "Entregue su trabajo y cubra las espectativas del cliente. ¡Nosotros garantizamos que usted cobrará por ello! "
+      text4: "Si por el contrario tiene algún incoveniente al respecto, llame urgentemente al telefono 912204555."
+      subject: "Enhorabuena, el cliente ha pagado ya!"
+    correo_mensaje:
+      subject: "Mensaje de %{user} referente al proyecto %{nombre_proyecto}"
+    correo_pagado:
+      text1: "Compruebe que se ha hecho efectiva la transferencia en un par de días y en caso contrario pulse este <a href='zona_editor/mis_datos' > enlace </a>."
+      text2: "Por favor, valore a %{nombre_cliente} pulsando <a href='zona_editor/mis_datos' > aquí </a>. Futuros editores se lo agradecerán."
+      subject: "Enhorabuena! se ha efectuado el pago de su proyecto %{nombre_proyecto}"
+    correo_reclamacion:
+      text: "Podrá subsanarla (o no) pulsando <a href='zona_usuario/mis_proyectos' > aquí </a>"
+      subject: "Sentimos comunicarle que ha recibido una reclamación de %{cliente_nombre} del proyecto %{proyecto_nombre}"
+    correo_fin_proyecto:
+      text1: "seleccionado por usted para este proyecto da por finalizado y entregado." 
+      text2: "Esperamos cumpla sus espectativas. Descargue su proyecto en el <a href='zona_usuario/mis_proyectos'> enlace </a>"
+      text3: "Valore por favor al editor %{nombre_proveedor}. Futuros clientes se lo agradecerán."
+      subject: "El proyecto %{proyecto_nombre} ha sido entregado satisfactoriamente"
+    correo_reclamacion_en_curso:
+      text: "Si desea retirar la reclamación, permitirá que el editor cobre por los servicios prestados. En caso contrario, YooRec facilitará un servicio de mediación. Pulse <a href='zona_usuario/mis_proyectos'> aquí </a>."
+      subject: "Usted ha tramitado una reclamación"
+    correo_reclamacion_mensaje:
+      a_editor: "accedo a lo solicitado en el plazo pactado de forma que deja de ser una reclamación"
+      a_cliente: "accedo a la ampliación de presupuesto con el plazo pactado de forma que deja de ser una reclamación"
+      subject: "Mensaje de reclamacion de %{nombre_usuario} referente al proyecto %{proyecto_nombre}"
+
+      #--------- LOGIN -----#
+  user_sessions:
+    ya_eres_usuario: "¿ya eres usuario?"
+    usuario: "Usuario"
+    password: "Contraseña"
+    aun_no_eres_usuario: "¿Aun no eres usuario?"
+    texto_registrate: "Registrate y empieza a disfrutar de tus recuerdos"
+  
+  #------ ZONA EDITOR ---#
+  zona_editor:
+    mis_datos: "Mis Datos"
+    mis_ofertas: "Mis solicitudes de presupuesto"
+    mis_proyectos: "Mis Proyectos"
+    tipo_editor:  "tipo editor"
+    editor_montador: "editor/montador"
+    fotografo: "fotógrafo"
+    camara: "camara"
+    dvd_maker: "dvd maker"
+    scan: "scan" 
+    por_confianza: "por confianza" 
+    80/100: "80/100"
+    60/100: "60/100"
+    40/100: "40/100"
+    rango_edad: "Rango edad"
+    confianza: "Confianza"
+    nombre_editor: "nombre editor"
+    titulos:
+      directorio_editores: "Directorio <span>editores</span>"
+      nuevo_editor: "Nuevo editor&nbsp;&nbsp;<span>paso <span id='paso_actual'>1</span>/3</span>"
+    ficha_editor:
+      titulo_paso_1: "Para empezar algunos datos personales y academicos:"
+      nombre: "nombre"
+      introduzca_su_nombre: "Introduzca su nombre."
+      apellidos: "apellidos"
+      introduzca_sus_apellidos: "Introduzca sus apellidos."
+      email: "email"
+      introduzca_su_email: "Introduzca su email."
+      contrasena: "contraseña (min. 4 caracteres)"
+      introduzca_contrasena: "Introduzca su password (mínimo 4 caracteres)."
+      fecha_nacimiento: "fecha nacimiento"
+      foto: "foto (jpg/png/gif, max 500kb)"
+      introduzca_imagen: "Introduzca una imagen valida."
+      escuela: "escuela"
+      curso: "curso"
+      otros_datos_academicos: "otros datos academicos"
+      datos_documento: "Necesitamos tus datos del documento de identidad para .... :"
+      documento_identidad: "documento identidad dos caras (pdf/jpg/png/gif, max 500kb)"
+      introduzca_dni: "Introduzca un archivo con su dni valido."
+      pais_dni: "pais documento identidad"
+      introduzca_pais: "Introduzca el pais de su documento de identidad."
+      ciudad: "ciudad"
+      introduzca_ciudad: "Introduzca la ciudad de su documento de identidad."
+      direccion: "dirección"
+      introduzca_direccion: "Introduzca la dirección de su documento de identidad."
+      titulo_paso_2: "Ahora necesitamos información sobre tus trabajos y capacitaciones:"
+      usuario_youtube: "usuario youtube"
+      usuario_vimeo: "usuario vimeo"
+      enlace_video: "enlace video"
+      idioma_1: "idioma 1"
+      idioma_2: "idioma 2"
+      idioma_3: "idioma 3"
+      otros_idiomas: "otros idiomas"
+      podria_camara: "podría hacer de camara"
+      llevaria_camara: "llevaría cámara"
+      marca: "marca"
+      modelo: "modelo"
+      escanear_fotos: "podría escanear fotografías"
+      digitalizar_video: "podría digitalizar videos"
+      dvd_interactivo: "hacer dvd interactivo"
+      situacion_economica: "situación socio/economico actual"
+      titulo_paso_3: "Ya casi has acabado"
+      pais_residencia: "pais residencia"
+      int_pais: "Introduzca su pais de residencia."
+      codigo_postal: "código postal"
+      int_codigo: "Introduzca su código postal. Compruebe que el formato es correcto."
+      provincia: "provincia"
+      int_provincia: "Introduzca su provincia."
+      localidad: "localidad"
+      int_localidad: "Introduzca su localidad."
+      telefono_movil: "telefono movil"
+      formato_movil: "El telefono movil no tiene el formato correcto."
+      telefono_fijo: "telefono fijo"
+      formato_fijo: "El telefono fijo no tiene el formato correcto."
+      sigues_aumentando: "sigues aumentando"
+      texto_wetransfer: "Necesitamos que nos mandes 3 videos para que los clientes vean si les gusta tu estilo. Los videos aparecezarán asociados a tu perfil en el directorio de editores. Lo puedes hacer despues de enviar el formulario o ahora mismo, <b>pero no se te olvider enviar el formulario pulsando el boton finalizar</b>.</p><p class='formulario'>Mandanos los videos a traves de nuestro <a href='https://yoorec.wetransfer.com/?to=info@yoorec.com'>canal de wetransfer</a>, y no olvides poner en el correo el mismo que has utilizado en el alta, asi podremos vincular los videos a tu cuenta."
+      form_obligatorio: "Obligatorio"
+      form_opcional: "Opcional"
+      form_completado: "Completado"
+    confimacion_alta:
+      titulo_gracias: "¡¡¡GRACIAS POR DARTE DE ALTA EN YOOREC!!!"
+      texto_1: "Gracias por darte de alta como editor en YOOREC. Vamos a revisar tus datos para proceder con el alta en nuestro directorio. <u>Recibiras un correo electronico cuando puedas acceder a la plataforma</u>."
+      texto_2: "Nos pondremos en contacto contigo si tenemos alguna duda, y para confirmar algunos datos, con el fin de dar al cliente las mayores garantías."
+      texto_3: "No olvides que necesitamos que nos mandes 3 videos para que los clientes vean si les gusta tu estilo. Los videos aparecezarán asociados a tu perfil en el directorio de editores. Lo puedes hacer despues de enviar el formulario o ahora mismo."
+      texto_4: "Mandanos los videos a traves de nuestro <a href='https://yoorec.wetransfer.com/?to=info@yoorec.com'>canal de wetransfer</a>, y no olvides poner en el correo el mismo que has utilizado en el alta, asi podremos vincular los videos a tu cuenta."
+    envio_video:
+      finaliza_proyecto: "<b>Va a finalizar el proyecto:</b>"
+      texto_finaliza: "Le vamos a enviar a nuestra página de intercambio de ficheros para que envíe el video final del proyecto.</p><p>El video lo recibirá el cliente para su aprobación o rechazo.</p><p>Una vez que el cliente apruebe el video, Yoorec traspasará a su cuenta el importe del proyecto."
+    marcar_finalizado:
+      finaliza_proyecto: "<b>Va a finalizar el proyecto:</b>"
+      texto_marcar_finalizado: "El proyecto lo recibirá el cliente para su aprobación o rechazo.</p><p>Una vez que el cliente apruebe el video, Yoorec traspasará a su cuenta el importe del proyecto."
+    #----- OFERTA PRESUPUESTO DE UN EDITOR ---#
+    oferta_presupuesto:
+      pendiente_oferta: "Tiene pendiente realizar una oferta para éste proyecto"
+      plazo_realizacion: "plazo de realización en d&iacute;as"
+      presupuesto: "presupuesto"
+      oferta_realizada: "Ya ha realizado una oferta para este proyecto."
+      plazo: "plazo"
+      presupuesto2: "presupuesto"
+      modificar_oferta: "Si lo desea todavía puede modificarla:"
+      rechazar_oferta: "Motivos de rechazo"
+
+   # ---------- ZONA DE USUARIO -----#   
+  zona_usuario:
+    shared:
+      nombre: "nombre" 
+      redireccionar: "Le vamos a redireccionar a la pasarela de pago."    
+    _presupuesto:
+      escribe_titulo: "escribe el título del proyecto"
+      escribe_comentario: "escríbenos todo lo que quieras contarnos sobre tu video o proyecto"
+      num_fotos: "Nº Fotos"
+      min_video_enviado: "Min. video enviados"
+      num_canciones: "Nº Canciones"
+      min_video_final: "Min. video finales"
+      cargar_archivos: "Debe cargar sus archivos antes de comenzar el proyecto"
+      subir_material: "¿Quiere subir más material?"
+    _seleccion_editor:
+      rango_edad: "Rango edad"
+      confianza: "Confianza"
+    alta:
+      es_usuario: "¿ya eres usuario?"
+      usuario: "Usuario"
+      password: "Password"
+      olvidado_contraseña: "¿has olvidado tu contraseña?"
+      acceder_para_alta: "Necesitamos que accedas a la te des de alta para continuar. <br/>¡Solo son estos cuatro campo y ya está!"
+    
+    #-------- ACEPTAR, ASIGNAR,CANCELAR PROYECTO -----#
+    aceptar:
+      valora: "Valora"
+    asignar:
+      oferta_seleccionada: "Ha seleccionado la siguiente oferta para su proyecto"
+      condiciones_yoorec_proyecto: "Estas son las condiciones de Yoorec para su proyecto"
+      proveedor: "Proveedor"
+      dias: "Días"
+      cuantia: "Cuantía"
+      pulsar_asignar: "Seleccione una forma de pago, pulse sobre asignar <br/>para realizar la trasacción y empezar el proyecto"
+      pulsar_comprar: "Seleccione una forma de pago, pulse sobre comprar <br/>para realizar la trasacción y empezar el proyecto"
+    cancelar:
+      confirmar_cancelar: "¿Está seguro de que desea cancelar el proyecto?"
+      consecuencias_cancelar: "Si lo cancela no podrá volver a activarlo y rechazará todad las ofertas"
+    editar:
+      comentario: "comentario"
+    mis_datos:
+      mis_datos: "Mis Datos"
+      errores: "Se han producido los siguientes errores"
+      title_nombre: "Introduzca su nombre."
+      apellidos: "apellidos"
+      title_apellidos: "Introduzca sus apellidos."
+      contraseña: "contraseña"
+      title_contraseña: "Introduzca su password(mínimo 4 caracteres)."
+      confirmar_contraseña: "confirmar contraseña"
+      title_confirmar_contraseña: "Introduzca su password(mínimo 4 caracteres)."
+    mis_editores:
+      error: "Se ha producido un error."
+      directorio_editor: "Directorio <span>editores</span>"
+      tipo_editor: "tipo editor"
+      editor_montador: "editor/montador"
+      fotografo: "fotógrafo"
+      camara: "camara"
+      dvd_maker: "dvd maker"
+      scan: "scan"
+      por_confianza: "por confianza"
+      80/100: "80/100"
+      60/100: "60/100"
+      40/100: "40/100"
+    nuevo_mensaje:
+      mensaje_proyecto: "Creando el proyecto y solicitando presupuestos"
+    ofertas:
+      solicitud_presupuesto: "Todav&iacute;a no ha solitado presupuestos a nuestros editores."
+      solicitud: "Solicitelo ahora mismo"
+      presupuesto: "Presupuesto:"
+      proveedor: "Proveedor"
+      dias: "Dias:"
+      cuantia: "Cuantía:"
+      sin_presupuesto: "No tiene presupuestos para este proyecto"
+    presupuestos:
+      mis_presupuestos: "Mis Presupuestos"
+      mensaje_rechazar_presupuesto: "Solicitud de finalización rechazada: "
+      popup_rechazar_presupuesto: "Coméntanos el motivo de por el que rechazas el proyecto"
+    subida_amazon:
+      archivos_carga: "Drop files here to upload"
+
+      # ------ZONAS COMUNES -------#
+  _shared:
+    _proyecto:
+      num_fotos: "Nº Fotos"
+      min_video_enviado: "Min. video enviados"
+      min: "min"
+      num_canciones: "Nº Canciones"
+      min_video_final: "Min. video finales"
+      fecha_inicio: "Fecha inicio"
+      fecha_fin: "Fecha fin"
+      presupuesto: "Presupuesto"
+    _alta_usuario:
+      nombre: "nombre"
+      title_nombre: "Introduzca su nombre."
+      apellidos: "apellidos"
+      title_apellidos: "Introduzca sus apellidos."
+      email: "email"
+      title_email: "Introduzca su email."
+      password: "password"
+      title_password: "Introduzca su password(mínimo 4 caracteres)."
+      error: "Se ha producido un error en el proceso de login. Inténtelo de nuevo."
+    _ficha_editor:
+      rango_edad: "Rango edad:"
+      confianza: "Confianza:"
+    _nuevo_mensaje:
+      mensaje: "mensaje"
+      title_mensaje: "Introduzca su nombre."
+
+      #----------------- ERRORES - ALERT ----------------#
+  controllers_flash:
+    application_controller:
+      require_user: "Debe estar logeado para acceder a esta pagina."
+      require_no_user: "No debe estar logeado para acceder a esta pagina."
+    password_resets_controller:
+      instrucciones_pass: "Las instrucciones para recuperar su password se han enviado a su correo."
+      no_posible_recuperar_usuario: "No es posible recuperar su usuario."
+      pass_actualizada: "Su password se ha actualizado correctamente." 
+      no_existe_cuenta: "We're sorry, but we could not locate your account. If you are having issues try copying and pasting the URL from your email into your browser or restarting the reset password process."  
+    user_sessions_controller:
+      user_no_valido: "El usuario o password introducido no es valido."
+      logged_out_correcto: "Successfully logged out."
+    zona_editor_controller:
+      registro_actualizado_ok: "Registro actualizado correctamente."
+      registro_actualizado_no_ok: "Se ha producido un error. Inténtalo de nuevo o mandanos un correo a info@yoorec.com."
+      error_inesperado: "Se ha producido un error inesperado."
+    zona_usuario_controller:
+      user_no_valido: "El usuario o password introducido no es valido."
+      registro_actualizado_no_ok: "Se ha producido un error. Inténtalo de nuevo o mandanos un correo a info@yoorec.com."
+      error_inesperado: "Se ha producido un error inesperado."
+      datos_actualizados: "Sus datos de han actualizado correctamente."
+      proyecto_no_iniciado: "No has iniciado ningún proyecto"
+
+  activerecord:
+    errors:
+      blank: "no puede quedar en blanco"
+      template:
+        header: "Error"
+        body: "Se han producido los siguientes errores:"
+      models:
+          user:
+            attributes:
+              username:
+                too_short: "demasiado corto."
+                taken: "ya esta siendo usuado."
+                too_short: "es demasiado corto (mínimo  %{count} caracteres)."
+              password_confirmation:
+                too_short: "demasiado corto."
+              password:
+                too_short: "demasiado corto."
+                confirmation: "no valido."
+              email:
+                too_short: "demasiado corto."
+                taken: "ya esta siendo usuado."
+
+  authlogic:
+    error_messages:
+      login_blank: "no puede quedar en blanco"
+      login_not_found: "no es valido"
+      login_too_short: "demasiado corto"
+      login_invalid: "solo pueden usarse letras, numeor, espacios y .-_@"
+      consecutive_failed_logins_limit_exceeded: "a sobrepasado el número de intentos. Su cuenta ha sido bloqueada."
+      email_invalid: "el email no tiene el formato correcto."
+      password_blank: "no puede quedar en blanco"
+      password_invalid: "no es valido"
+
+  active_admin:
+    dashboard: Inicio
+    dashboard_welcome:
+      welcome: "Bienvenido a Active Admin. Esta es la página de inicio predeterminada."
+      call_to_action: "Para agregar secciones edite 'app/admin/dashboard.rb'"
+    view: "Ver"
+    edit: "Editar"
+    delete: "Eliminar"
+    delete_confirmation: "¿Está seguro de que quiere eliminar esto?"
+    new_model: "Añadir %{model}"
+    create_model: "Añadir %{model}"
+    edit_model: "Editar %{model}"
+    update_model: "Editar %{model}"
+    delete_model: "Eliminar %{model}"
+    details: "Detalles de %{model}"
+    cancel: "Cancelar"
+    empty: "Vacío"
+    previous: "Anterior"
+    next: "Siguiente"
+    download: "Descargar:"
+    has_many_new: "Agregar Añadir %{model}"
+    has_many_delete: "Eliminar"
+    has_many_remove: "Quitar"
+    filter: "Filtrar"
+    clear_filters: "Quitar Filtros"
+    search_field: "Buscar %{field}"
+    equal_to: "Igual a"
+    greater_than: "Mayor que"
+    less_than: "Menor que"
+    main_content: "Por favor implemente %{model}#main_content para mostrar contenido."
+    logout: "Salir"
+    powered_by: "Powered by %{active_admin} %{version}"
+    sidebars:
+      filters: "Filtros"
+    pagination:
+      empty: "No se han encontrado %{model}"
+      one: "Mostrando <b>1</b> %{model}"
+      one_page: "Mostrando <b>un total de %{n}</b> %{model}"
+      multiple: "Mostrando %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> de un total de <b>%{total}</b>"
+    blank_slate:
+      content: "No hay %{resource_name} aún."
+      link: "Añadir"
+      entry:
+        one: "registro"
+        other: "registros"
+    any: "Cualquiera"
+    batch_actions:
+      button_label: "Acciones en masa"
+      delete_confirmation: "Eliminar %{plural_model}: ¿Está seguro? No podrá deshacer esta acción."
+      succesfully_destroyed:
+        one: "Se ha destruido 1 %{model} con éxito"
+        other: "Se han destruido %{count} %{plural_model} con éxito"
+      selection_toggle_explanation: "(Cambiar selección)"
+      link: "Añadir"
+      action_label: "%{title} seleccionado"
+      labels:
+        destroy: "Borrar"
+    comments:
+      body: "Cuerpo"
+      author: "Autor"
+      title: "Comentario"
+      add: "Comentar"
+      resource: "Recurso"
+      no_comments_yet: "Aún sin comentarios."
+      title_content: "Comentarios (%{count})"
+      errors:
+        empty_text: "El comentario no fue guardado, el texto estaba vacío."
+    devise:
+      login:
+        title: "iniciar sesión"
+        remember_me: "Recordarme"
+        submit: "iniciar sesión"
+      reset_password:
+        title: "¿Olvidó su contraseña?"
+        submit: "Restablecer mi contraseña"
+      change_password:
+        title: "Cambie su contraseña"
+        submit: "Cambiar mi contraseña"
+      links:
+        sign_in: "registrarse"
+        forgot_your_password: "¿Olvidó su contraseña?"
+        sign_in_with_omniauth_provider: "Conéctate con %{provider}"
+  views:
+      pagination:
+          truncate: "..."
+          first: "Inicio"
+          previous: "Anterior"
+          next: "Siguiente"
+          last: "Último"
+  formtastic:
+    yes: "Sí"
+    no: "No"
+    create: "Guardar %{model}"
+    update: "Guardar %{model}"
+    submit: "Aceptar"
+    cancel: "Cancelar"
+    reset: "Restablecer %{model}"
+    required: "requerido" 
