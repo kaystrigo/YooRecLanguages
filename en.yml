@@ -117,18 +117,18 @@ en:
   
   #-------------- MAILS - CORREOS ------------------#
   user_mailer:
-    cabecera: "Estimado %{nombre_user}"
-    despedida_text1: "Le saluda atentamente."
-    despedida_text2: "El equipo de YooRec."
-    el_editor: "el editor %{nombre_usuario}"
-    el_cliente: "el cliente %{nombre_usuario}"
+    cabecera: "Dear %{nombre_user}"
+    despedida_text1: "Yours sincerely,"
+    despedida_text2: "YooRec Team."
+    el_editor: "the editor %{nombre_usuario}"
+    el_cliente: "the client %{nombre_usuario}"
     password_reset_instructions:
       recuperacion_contraseña: "Hemos recibido una petición de recuperación de contraseña</p><p>Si usted no ha realizado la petición, ignore este email."
       enlace: "Si usted realizó la petición, haga click en el siguiente enlace:"
       problema_enlace: "Si el enlace no funciona, cópielo y péguelo en su navegador. Si tiene problemas para acceder, póngase en contacto con nosotros en la dirección notifica@yoorec.com."
-      subject_password_reset: "Password Reset Instructions, Instrucciones de recuperacion de contraseña "
+      subject_password_reset: "Password Reset Instructions."
     correo_registro:
-      text: "Gracias por registrarse en YooRec.com. Le animamos a seguir adelante en su primera compra de montaje y edición de video, u otro servicio que pueda ofrecerle nuestro equipo. "
+      text: "Thank you for registering with YooRec.com. We welcome you to begin browsing the website and encourage you to find the editor who you wish to complete your first video or complete any other tasks which our team offerGracias por registrarse en YooRec.com. Le animamos a seguir adelante en su primera compra de montaje y edición de video, u otro servicio que pueda ofrecerle nuestro equipo. "
       subject: "Bienvenido a YooRec, un lugar donde tus videos se harán realidad"
     correo_registro_editor:
       text1: "Gracias por registrarse en YooRec.com como editor. Como has podido ver también hay espacio para fotógrafos, cámaras o simples ayudantes a la digitalización. "
