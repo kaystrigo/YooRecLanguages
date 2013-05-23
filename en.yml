@@ -5,6 +5,7 @@ en:
   #----BOTONES ----#
   bienvenido: "welcome %{user}"
   salir: "log out"
+  registrarse: "sign up"
   entrar: "sign in"
   si: "yes"
   no: "no"
@@ -12,8 +13,7 @@ en:
   siguiente: "next"
   finalizar: "complete"
   seleccionar: "Select"
-  registrarse: "Log in"
-  botones:
+    botones:
     upload: "Upload"
     actualizar: "Update"
     cancelar: "Cancel"

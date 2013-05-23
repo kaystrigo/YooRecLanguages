@@ -3,7 +3,7 @@
 
 fr:
    #----BOTONES ----#
-  bienvenido: "bienvenue"
+  bienvenido: "bienvenue  %{user}"
   salir: "Sortie"
   entrar: "entrer"
   si: "oui"

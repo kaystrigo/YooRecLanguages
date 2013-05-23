@@ -5,6 +5,7 @@ es:
    #----BOTONES ----#
   bienvenido: "Bienvenido %{user}"
   salir: "Salir"
+  registrarse: "Regístrate"
   entrar: "Entrar"
   si: "Si"
   no: "No"
@@ -12,7 +13,6 @@ es:
   siguiente: "Siguiente"
   finalizar: "Finalizar"
   seleccionar: "Seleccionar"
-  registrarse: "Registrarse"
   botones:
     upload: "Upload"
     actualizar: "Actualizar"
