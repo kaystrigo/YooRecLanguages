@@ -165,7 +165,7 @@ fr:
       sin_archivos:
         text_archivos_no_subidos: "También debe saber que el cliente NO HA SUBIDO SUS ARCHIVOS AÚN Y PUEDE VARIAR SUSTANCIALMENTE. Permitiremos ampliar el presupuesto, aunque si no quiere recibir propuestas en estas condiciones (sin archivos o no perfectamente definidos) pulse <a href='zona_editor/mis_datos'> aquí </a>, por favor. A partir de ese momento sólo le llegaran propuestas con archivos (fotos, videos, etc). "
     correo_respuesta_a_oferta: 
-      text: "le propone realizar su proyecto audiovisual por una cantidad de  %{cuantia}  euros y se compromete a realizarlo en el plazo de %{dias} días desde el momento del pago por su parte. Pulse <a href='zona_usuario/presupuesto'> aquí </a> para iniciar la orden de pedido. "
+      text: "le propone realizar su proyecto audiovisual por una cantidad de  %{cuantia}  euros y se compromete a realizarlo en el plazo de %{dias} días desde el momento del pago por su parte. Pulse <a href='zona_usuario/presupuesto'> aquí </a> para iniciar la orden de pedido."
       subject: "%{nombre_proveedor} pide %{cuantia} euros por realizar su %{nombre_proyecto} (plazo %{dias} dias)"
     correo_oferta_modificada:
       text1: "estas son las cosas de trabajar a través de internet. Tu posible cliente %{nombre_cliente} ha realizado alguna modificación en el proyecto."
