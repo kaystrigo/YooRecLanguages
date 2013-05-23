@@ -153,6 +153,19 @@ en:
       text2: "It must be noted that some of our editors prefer not to offer a bid if you have not uploaded all of the relevant files, as it allows them to determine the difficulty of the project and therefore the price. At this point we would encourage you to upload the relevant files to help the editors make a bid or to select more editors."
       subject: "You have selected %{nombre_proveedor} to consider your project."
     correo_recibe_oferta:
+<<<<<<< HEAD
+      mostrar_interes: "ha mostrado interés en recibir una propuesta por su trabajo. Debemos hacerle saber que los datos introducidos son: "
+      nombre_proyecto: "Nombre del proyecto: %{nombre_proyecto}"
+      descripcion: "Descripcion: %{descripcion}"
+      numero_fotos: "Numero de fotos: %{num_fotos}"
+      minutos_videos: "Minutos de video: %{min_videos}"
+      numero_canciones: "Número de canciones: %{num_canciones}"
+      precio_propuesto: "Precio propuesto por YooRec 45 euros."
+      oferte: "Oferte pulsando <a href='https://www.yoorec.com/zona_editor'> aquí </a>"
+      subject: "YooRec le presenta a un posible cliente: %{nombre_cliente} muestra interés por usted"
+      sin_archivos:
+        text_archivos_no_subidos: "También debe saber que el cliente NO HA SUBIDO SUS ARCHIVOS AÚN Y PUEDE VARIAR SUSTANCIALMENTE. Permitiremos ampliar el presupuesto, aunque si no quiere recibir propuestas en estas condiciones (sin archivos o no perfectamente definidos) pulse <a href='https://www.yoorec.com/zona_editor/mis_datos'> aquí </a>, por favor. A partir de ese momento sólo le llegaran propuestas con archivos (fotos, videos, etc). "
+=======
       mostrar_interes: "has expressed an interest in your project and would like to propose a budget. You will need to provide the following data: "
       nombre_proyecto: "Project name: %{nombre_proyecto}"
       descripcion: "A description of the project: %{descripcion}"
@@ -160,10 +173,11 @@ en:
       minutos_videos: "Total of recording minutes: %{min_videos}"
       numero_canciones: "Number of songs: %{num_canciones}"
       precio_propuesto: "Price offered by YooRec is:"
-      oferte: "Give budget pressing <a href='https://www.yoorec.com/zona_editor'> here </a>"
+      oferte: "Give budget pressing <a href='zona_editor/oferta_proyecto'> here </a>"
       subject: "YooRec introduces you a possible client: %{nombre_cliente} is interested on your budget"
       sin_archivos:
         text_archivos_no_subidos: "Also be aware that the customer NOT THE RECORDS STILL HAS RISEN AND MAY VARY MATERIALLY. YooRec will allow you to increase the budget if the client send you a different amount of files from what he/she said. Even if you do not want to recieve proposals under these conditions (no files or not well defined) click <a href='zona_editor/mis_datos'> here </a>, please. From that moment you will only get proposals with files (photos, videos, etc)."
+>>>>>>> d4a549182621745a88e93d095089a3a0c18c70aa
     correo_respuesta_a_oferta: 
       text: "le propone realizar su proyecto audiovisual por una cantidad de  %{cuantia}  euros y se compromete a realizarlo en el plazo de %{dias} días desde el momento del pago por su parte. Pulse <a href='https://www.yoorec.com/zona_usuario/presupuestos'> aquí </a> para iniciar la orden de pedido. "
       subject: "%{nombre_proveedor} pide %{cuantia} euros por realizar su %{nombre_proyecto} (plazo %{dias} dias)"
