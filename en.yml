@@ -163,7 +163,7 @@ en:
       oferte: "Give budget pressing <a href='https://www.yoorec.com/zona_editor'> here </a>"
       subject: "YooRec introduces you a possible client: %{nombre_cliente} is interested on your budget"
       sin_archivos:
-        text_archivos_no_subidos: "Also be aware that the customer NOT THE RECORDS STILL HAS RISEN AND MAY VARY MATERIALLY. YooRec will allow you to increase the budget if the client send you a different amount of files from what he/she said. Even if you do not want to recieve proposals under these conditions (no files or not well defined) click <a href='zona_editor/mis_datos'> here </a>, please. From that moment you will only get proposals with files (photos, videos, etc)."
+        text_archivos_no_subidos: "Also be aware that the customer NOT THE RECORDS STILL HAS RISEN AND MAY VARY MATERIALLY. YooRec will allow you to increase the budget if the client send you a different amount of files from what he/she said. Even if you do not want to recieve proposals under these conditions (no files or not well defined) click <a href='https://www.yoorec.com/zona_editor/mis_datos'> here </a>, please. From that moment you will only get proposals with files (photos, videos, etc)."
     correo_respuesta_a_oferta: 
       text: "le propone realizar su proyecto audiovisual por una cantidad de  %{cuantia}  euros y se compromete a realizarlo en el plazo de %{dias} días desde el momento del pago por su parte. Pulse <a href='https://www.yoorec.com/zona_usuario/presupuestos'> aquí </a> para iniciar la orden de pedido. "
       subject: "%{nombre_proveedor} pide %{cuantia} euros por realizar su %{nombre_proyecto} (plazo %{dias} dias)"
