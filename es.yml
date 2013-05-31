@@ -24,6 +24,7 @@ es:
     guardar: "Guardar"
     comprar: "Comprar"
     finalizar: "Finalizar"
+    espere: "Espere..."
     # ----------- MENUS -----#
   menu:
     nuevo_proyecto: "nuevo proyecto"
@@ -77,7 +78,7 @@ es:
       prefieres_presupuesto: "¿prefieres un presupuesto rápido?"  
     #-------NUEVO PROYECTO----------#
     nuevo_proyecto:
-      titulo: "DESCRIBE YOUR VIDEO"
+      titulo: "DESCRIBE TU VIDEO"
       nombre_proyecto: "Nombre del proyecto"
       descripcion_proyecto: "And describe it too! With words you tell us what you need audiovisual project. We listen"
       texto_nuevo_proyecto: "<p class='texto_buynow'>Descubre nuestro sistema automático de presupuestos:</p><p class='texto_buynow'><img src='/images/logo_buynow.png' style='vertical-align:bottom;' />También puedes preguntar a los editores</p><p class='texto_buynow'>Introduce el número de fotos, minutos de video, numero de canciones y los minutos del video que deseas obtener y nosotros calcularemos el presupuesto para ti. Si no lo quieres, recuerda que también puedes preguntar a nuestros editores.</p>"
@@ -191,6 +192,11 @@ es:
       text2: "Esperamos cumpla sus espectativas. Descargue su proyecto en el <a href='https://www.yoorec.com/zona_usuario/proyectos'> enlace </a>"
       text3: "Valore por favor al editor %{nombre_proveedor}. Futuros clientes se lo agradecerán."
       subject: "El proyecto %{proyecto_nombre} ha sido entregado satisfactoriamente"
+    correo_marcar_como_finalizado:
+      text1: "%{nombre_proveedor} da por finalizado este proyecto." 
+      text2: "Esperamos cumpla sus espectativas. Descargue su proyecto en el <a href='https://www.yoorec.com/zona_usuario/proyectos'> enlace </a> y valídelo"
+      text3: "También puede plantear sus sugerencias a %{nombre_proveedor} en <a href='https://www.yoorec.com/zona_usuario/proyectos'> su vista de proyectos </a>."
+      subject: "El proyecto %{proyecto_nombre} está pendiente de ser revisado"
     correo_reclamacion_en_curso:
       text: "Si desea retirar la reclamación, permitirá que el editor cobre por los servicios prestados. En caso contrario, YooRec facilitará un servicio de mediación. Pulse <a href='https://www.yoorec.com/zona_usuario/proyectos'> aquí </a>."
       subject: "Usted ha tramitado una reclamación"
@@ -222,6 +228,7 @@ es:
     80/100: "80/100"
     60/100: "60/100"
     40/100: "40/100"
+    0/100: "0/100"
     rango_edad: "Rango edad"
     confianza: "Confianza"
     nombre_editor: "nombre editor"
@@ -386,6 +393,7 @@ es:
     presupuestos:
       mis_presupuestos: "Mis Presupuestos"
       mensaje_rechazar_presupuesto: "Solicitud de finalización rechazada: "
+      rechazar_presupuesto_notice: "El presupuesto está en un estado en el que no es posible recharzarlo"
       popup_rechazar_presupuesto: "Coméntanos el motivo de por el que rechazas el proyecto"
     subida_amazon:
       archivos_carga: "Drop files here to upload"
@@ -555,7 +563,7 @@ es:
         title: "Cambie su contraseña"
         submit: "Cambiar mi contraseña"
       links:
-        sign_in: "registrarse"
+        sign_in: "Regístrate"
         forgot_your_password: "¿Olvidó su contraseña?"
         sign_in_with_omniauth_provider: "Conéctate con %{provider}"
   views:

@@ -24,6 +24,7 @@ fr:
     guardar: "sauvegarder"
     comprar: "acheter"
     finalizar: "terminer"
+    espere: "espere..."      
     # ----------- MENUS -----#
   menu:
     nuevo_proyecto: "nouveau project"
@@ -191,6 +192,11 @@ fr:
       text2: "Esperamos cumpla sus espectativas. Descargue su proyecto en el <a href='zona_usuario/mis_proyectos'> enlace </a>"
       text3: "Valore por favor al editor %{nombre_proveedor}. Futuros clientes se lo agradecerán."
       subject: "El proyecto %{proyecto_nombre} ha sido entregado satisfactoriamente"
+    correo_marcar_como_finalizado:
+      text1: "%{nombre_proveedor} da por finalizado este proyecto." 
+      text2: "Esperamos cumpla sus espectativas. Descargue su proyecto en el <a href='https://www.yoorec.com/zona_usuario/proyectos'> enlace </a> y valídelo"
+      text3: "También puede plantear sus sugerencias a %{nombre_proveedor} en <a href='https://www.yoorec.com/zona_usuario/proyectos'> su vista de proyectos </a>."
+      subject: "El proyecto %{proyecto_nombre} está pendiente de ser revisado"
     correo_reclamacion_en_curso:
       text: "Si desea retirar la reclamación, permitirá que el editor cobre por los servicios prestados. En caso contrario, YooRec facilitará un servicio de mediación. Pulse <a href='zona_usuario/mis_proyectos'> aquí </a>."
       subject: "Usted ha tramitado una reclamación"
@@ -222,6 +228,7 @@ fr:
     80/100: "80/100"
     60/100: "60/100"
     40/100: "40/100"
+    0/100: "0/100"
     rango_edad: "Rango edad"
     confianza: "Confianza"
     nombre_editor: "nombre editor"
@@ -386,6 +393,7 @@ fr:
     presupuestos:
       mis_presupuestos: "Mis Presupuestos"
       mensaje_rechazar_presupuesto: "Solicitud de finalización rechazada: "
+      rechazar_presupuesto_notice: "El presupuesto está en un estado en el que no es posible recharzarlo"
       popup_rechazar_presupuesto: "Coméntanos el motivo de por el que rechazas el proyecto"
     subida_amazon:
       archivos_carga: "Drop files here to upload"
@@ -441,6 +449,7 @@ fr:
       error_inesperado: "Se ha producido un error inesperado."
       datos_actualizados: "Sus datos de han actualizado correctamente."
       proyecto_no_iniciado: "No has iniciado ningún proyecto"
+      correo_en_uso: "El correo utilizado esta en uso."
 
   activerecord:
     errors:
