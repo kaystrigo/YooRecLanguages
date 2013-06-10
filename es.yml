@@ -27,10 +27,10 @@ es:
     espere: "Espere..."
     # ----------- MENUS -----#
   menu:
-    nuevo_proyecto: "nuevo proyecto"
-    nuevo_editor: "nuevo editor"
-    que_es_yoorec: "Que es yoorec?"
-    directorio_editores: "directorio editores"
+    nuevo_proyecto: "Nuevo proyecto"
+    nuevo_editor: "Nuevo editor"
+    que_es_yoorec: "Qué es yoorec?"
+    directorio_editores: "Directorio editores"
     mis_datos: "mis datos"
     mis_editores: "mis editores"
     mis_presupuestos: "mis presupuestos"
