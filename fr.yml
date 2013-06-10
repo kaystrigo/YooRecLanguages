@@ -82,7 +82,7 @@ fr:
       nombre_proyecto: "Nombre del proyecto"
       descripcion_proyecto: "And describe it too! With words you tell us what you need audiovisual project. We listen"
       texto_nuevo_proyecto: "<p class='texto_buynow'>Descubre nuestro sistema automático de presupuestos:</p><p class='texto_buynow'><img src='/images/logo_buynow.png' style='vertical-align:bottom;' />También puedes preguntar a los editores</p><p class='texto_buynow'>Introduce el número de fotos, minutos de video, numero de canciones y los minutos del video que deseas obtener y nosotros calcularemos el presupuesto para ti. Si no lo quieres, recuerda que también puedes preguntar a nuestros editores.</p>"
-      num_fotos: "¿Cuantas fotos?"
+      num_fotos: "¿Cuantas fotos tienes?"
       fotos: "fotos"
       presupuesto: "presupuesto yoorec: BUY NOW!"
       minutos_video: "¿Cuantos minutos de video?"
